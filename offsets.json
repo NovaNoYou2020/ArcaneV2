@@ -1,0 +1,562 @@
+﻿{
+  "version": 3,
+  "description": "Arcane cheat - all game build profiles, module offsets, struct offsets, and runtime hardcoded offsets extracted from the codebase.",
+  "defaultProfile": "b3095",
+  "loaderVersion": "v1",
+  "sourceFiles": [
+    "Cheat/GameSDK.hpp",
+    "Cheat/Cheat.hpp",
+    "useit/Fivem-External/Cheat/FivemSDK/OffsetLoader.cpp",
+    "useit/Fivem-External/Cheat/FivemSDK/OffsetLoader.hpp",
+    "https://raw.githubusercontent.com/NovaNoYou2020/Nexone/refs/heads/main/Arcane/Arcane/partshobiron.json"
+  ],
+  "modules": {
+    "gameProcess": "IRFive_GameProcess.exe",
+    "gameWindowClass": "grcWindow",
+    "citizenPlayernames": "citizen-playernames-five.dll",
+    "net": "net.dll"
+  },
+  "supportedBuilds": [
+    "3507",
+    "3570",
+    "3323",
+    "3258",
+    "3095",
+    "2944",
+    "2802",
+    "2699"
+  ],
+  "gameVersionEnum": {
+    "useit/Fivem-External/Cheat/FivemSDK/Fivem.hpp": [
+      "GAME_VERSION_GAME_b2372",
+      "GAME_VERSION_GTA_b2372",
+      "GAME_VERSION_GAME_b2612",
+      "GAME_VERSION_GTA_b2612",
+      "GAME_VERSION_GAME_b2699",
+      "GAME_VERSION_GTA_b2699",
+      "GAME_VERSION_GAME_b2189",
+      "GAME_VERSION_GTA_b2189",
+      "GAME_VERSION_GAME_b2802",
+      "GAME_VERSION_GTA_b2802",
+      "GAME_VERSION_GAME_b2060",
+      "GAME_VERSION_GTA_b2060",
+      "GAME_VERSION_GAME_b2545",
+      "GAME_VERSION_GTA_b2545",
+      "GAME_VERSION_GAME_b2944",
+      "GAME_VERSION_GTA_b2944",
+      "GAME_VERSION_GAME_b3095",
+      "GAME_VERSION_GTA_b3095"
+    ]
+  },
+  "processNamesByBuild": {
+    "b3095": [
+      "FiveM_b3095_GameProcess.exe",
+      "FiveM_b3095_GTAProcess.exe",
+      "IRFive_b3095_GameProcess.exe",
+      "IRFive_b3095_GTAProcess.exe"
+    ]
+  },
+  "profiles": {
+    "b3507": {
+      "build": "3507",
+      "module": {
+        "World": "0x25EC580",
+        "ReplayInterface": "0x1FB0418",
+        "ViewPort": "0x2058BA0",
+        "Camera": "0x2059778",
+        "HandleBullet": "0x102D550",
+        "BlipList": "0x2061870",
+        "Waypoint": "0x2047D50"
+      },
+      "struct": {
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10B8",
+        "VisibleFlag": "0x145C",
+        "LastVehicle": "0xD10",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "Health": "0x280",
+        "MaxHealth": "0x284",
+        "Armor": "0x150C",
+        "FragInsNmGTA": "0x1430"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    },
+    "b3570": {
+      "build": "3570",
+      "module": {
+        "World": "0x25D7108",
+        "ReplayInterface": "0x1F9A9D8",
+        "ViewPort": "0x20431C0",
+        "Camera": "0x2043DF8",
+        "HandleBullet": "0x102FF89",
+        "BlipList": "0x20440C8",
+        "Waypoint": "0x2047D50"
+      },
+      "struct": {
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10B8",
+        "VisibleFlag": "0x145C",
+        "LastVehicle": "0xD10",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "Health": "0x280",
+        "MaxHealth": "0x284",
+        "Armor": "0x150C",
+        "FragInsNmGTA": "0x1430"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    },
+    "b3323": {
+      "build": "3323",
+      "module": {
+        "World": "0x25C15B0",
+        "ReplayInterface": "0x1F85458",
+        "ViewPort": "0x202DC50",
+        "Camera": "0x202E878",
+        "HandleBullet": "0x1026CAD",
+        "BlipList": "0x2002888",
+        "Waypoint": "0x2022DE0"
+      },
+      "struct": {
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10B8",
+        "VisibleFlag": "0x145C",
+        "LastVehicle": "0xD10",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "Health": "0x280",
+        "MaxHealth": "0x284",
+        "Armor": "0x150C",
+        "FragInsNmGTA": "0x1430"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    },
+    "b3258": {
+      "build": "3258",
+      "module": {
+        "World": "0x25B14B0",
+        "ReplayInterface": "0x1FBD4F0",
+        "ViewPort": "0x201DBA0",
+        "Camera": "0x201E7D0",
+        "HandleBullet": "0x101A65D",
+        "BlipList": "0x2002FA0",
+        "Waypoint": "0x2023400"
+      },
+      "struct": {
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10B8",
+        "VisibleFlag": "0x145C",
+        "LastVehicle": "0xD10",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "Health": "0x280",
+        "MaxHealth": "0x284",
+        "Armor": "0x150C",
+        "FragInsNmGTA": "0x1430"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    },
+    "b3095": {
+      "build": "3095",
+      "module": {
+        "World": "0x2593320",
+        "ReplayInterface": "0x1F58B58",
+        "ViewPort": "0x20019E0",
+        "Camera": "0x2002888",
+        "Camera2": "0x20025B8",
+        "bIsPlayerAiming": "0x2D3839C",
+        "PlayerAimingAt": "0x200FA10",
+        "HandleBullet": "0x100F5A4",
+        "BlipList": "0x2002FA0",
+        "Waypoint": "0x2002FA0"
+      },
+      "struct": {
+        "EntityType": "0x1098",
+        "PlayerSpeed": "0x0D50",
+        "Armor": "0x150C",
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "WeaponManager": "0x10B8",
+        "FragInsNmGTA": "0x1430",
+        "ConfigFlags": "0x1444",
+        "LastDamagedBone": "0x1740",
+        "MaxHealth": "0x284",
+        "LastVehicle": "0xD10",
+        "Driver": "0xC90",
+        "DoorLock": "0x13C0",
+        "Stamina": "0xCF4",
+        "VisibleFlag": "0x145C",
+        "Handling": "0x960",
+        "EngineHealth": "0x910",
+        "DoorStatus": "0x8A8",
+        "VehicleState": "0x972",
+        "FrameFlag": "0x0270",
+        "SeatBelt": "0x143C",
+        "SeatBeltWindShield": "0x1448",
+        "AmmoType": "0x20",
+        "AmmoExplosiveType": "0x24"
+      },
+      "esp": {
+        "ViewMatrix": "0x24C",
+        "SkeletonFragInsStep1": "0x68",
+        "SkeletonFragInsStep2": "0x178"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      },
+      "replayInterface": {
+        "VehicleInterface": "0x10",
+        "PedInterface": "0x18",
+        "PedList": "0x100",
+        "PedMaximum": "0x108",
+        "PedListStride": "0x10",
+        "VehicleList": "0x180",
+        "VehicleMaximum": "0x188",
+        "VehiclesAtList": "0x190",
+        "VehicleListStride": "0x10"
+      },
+      "camera": {
+        "FollowPedCamera": "0x3C0",
+        "ViewAngles": "0x40",
+        "CrosshairPosition": "0x60",
+        "ThirdpersonViewAngles": "0x3D0",
+        "CameraPosition": "0x3F0"
+      },
+      "ped": {
+        "ModelInfo": "0x20",
+        "Navigation": "0x30",
+        "Coordinate": "0x90",
+        "Health": "0x280",
+        "InvencibleFlags": "0x188",
+        "PlayerInfoFallback1": "0x10B0",
+        "PlayerInfoFallback2": "0x1098",
+        "PlayerInfoFallback3": "0x10A0",
+        "ArmorFallback": ["0x150C", "0x1530", "0x14E0"],
+        "SeatIndexScan": ["0x1570", "0x1464", "0x10E0", "0xE5"],
+        "LastVehicleFallback": ["0xD10", "0xD30", "0xD28"]
+      },
+      "vehicle": {
+        "ModelInfo": "0x20",
+        "Navigation": "0x30",
+        "ForwardVector": "0x60",
+        "UpVector": "0x80",
+        "Coordinate": "0x90",
+        "BodyHealth": "0x280",
+        "BodyHealthAlt": "0x284",
+        "PetrolTank": "0x824",
+        "OilTank": "0x8E8",
+        "VisualFlag888": "0x888",
+        "EngineFlag970": "0x970",
+        "WindowState972": "0x972",
+        "WindowState974": "0x974",
+        "Misc978": "0x978",
+        "HandlingDirect960": "0x960",
+        "HandlingFallback918": "0x918",
+        "DriverFallback": ["0xC48", "0xC90", "0xC68", "0xC50", "0xC58", "0xC60"],
+        "SeatOccupantScan": ["0xC90", "0xC68", "0xC48", "0xC50", "0xC58", "0xC60"],
+        "PlateTextScan": ["0x7C8", "0x7A8", "0x890", "0x928", "0x1390", "0x150C"],
+        "DeformSkipScan": ["0x41C", "0x430", "0x434", "0x270", "0x300", "0x304", "0x330", "0x2F4", "0x328", "0x32C", "0x3A0", "0x3B4"],
+        "WindowByteScan": ["0x970", "0x972", "0x974", "0x975", "0x976", "0x977"]
+      },
+      "navigation": {
+        "Velocity": "0x30",
+        "Heading": "0x38",
+        "Position": "0x50"
+      },
+      "handling": {
+        "DriveForce": "0x18",
+        "MaxFlatVelocity": "0x28",
+        "BoostValue": "0x4C",
+        "ModelGravity": "0x40",
+        "ModelMagic": "0x2C",
+        "ModelNoCollision": "0x58B"
+      },
+      "weapon": {
+        "WeaponInfoPtr": "0x20",
+        "WeaponObjectFromManager": "0x78",
+        "WeaponObjectAlt": "0x60",
+        "WeaponNamePtr": "0x5F0",
+        "WeaponDamage": "0xB0",
+        "RecoilValue": "0x2F4",
+        "NoReload": "0x134",
+        "NoRange": "0x28C",
+        "MagicBulletWeaponObject": "0x320",
+        "AmmoClipScan": ["0x18", "0x20", "0x24", "0x28", "0x2C", "0x58", "0x60", "0x64", "0x68", "0x12", "0x14", "0x16"]
+      },
+      "silentAim": {
+        "HookRva": "0x34E"
+      },
+      "network": {
+        "NetObjectFromEntity": "0xD0",
+        "NetObjectScan": ["0xD0", "0xC8", "0xD8", "0xE8"],
+        "NetObjectOwnerId": "0x49",
+        "NetObjectFlags": "0x4E",
+        "PlayerInfoNetIdScan": "0x68",
+        "PlayerInfoSteamIdBase": "0xA0"
+      },
+      "playerNames": {
+        "Module": "citizen-playernames-five.dll",
+        "NameFieldLength": "0x30",
+        "KnownMapOffsets": ["0x34D20", "0x30D38", "0x35D20", "0x349A0", "0x33D20", "0x35920", "0x34120", "0x31D98"],
+        "KnownMapOffsetsUseit": ["0x30D38", "0x30D48", "0x30D58", "0x30D68", "0x30D78", "0x30D88", "0x30D98", "0x30DA8"],
+        "KnownListOffsets": ["0x313A0", "0x313B0", "0x313C0", "0x313D0"],
+        "ScanRangeStart": "0x28000",
+        "ScanRangeEnd": "0x48000",
+        "ScanStride": "0x10",
+        "InlineNameScan": ["0xA0", "0x98", "0xB0", "0xC0", "0x88", "0xD0", "0xF8", "0x100", "0x108", "0x110", "0x120", "0x130", "0xA8", "0xB8", "0xC8", "0xE0", "0x140", "0x148", "0x150", "0x84"],
+        "SteamIdXorKey": "0xFEED"
+      },
+      "boneManager": {
+        "HashTable": "0x18",
+        "BoneArray": "0x20",
+        "BoneCount": "0x28",
+        "BoneIdTable": "0x30"
+      },
+      "skeleton": {
+        "CrSkeletonDataBase": "0x8",
+        "BoneMatrixTable": "0x18",
+        "BoneMatrixStride": "0x40",
+        "HasHashTableFlag": "0x1A",
+        "HashTablePtr": "0x10",
+        "HashEntryNext": "0x8",
+        "HashEntryBoneId": "0x4",
+        "MaxBoneIndex": "0x5E"
+      },
+      "blip": {
+        "WaypointPosition": "0x10",
+        "Icon": "0x40",
+        "Color": "0x48"
+      },
+      "exploits": {
+        "NetObjectVisibilityFlag": "0x2C",
+        "NetObjectSyncFlag": "0x1C",
+        "WeaponSpread": "0x74",
+        "WeaponMaxClipInfo": "0x70",
+        "WeaponObjectFromManager": "0x78",
+        "WeaponObjectAlt": "0x60",
+        "WeaponClipCurrent": "0x18",
+        "WeaponClipMax": "0x1C",
+        "WeaponClipMaxAlt": "0x0AC",
+        "WeaponReserveA8": "0xA8",
+        "WeaponReserveB8": "0xB8",
+        "EmbeddedInventory5C": "0x5C",
+        "EmbeddedInventory6C": "0x6C",
+        "AmmoInfo58": "0x58",
+        "AmmoInfo60": "0x60",
+        "InventoryAmmoCurrent": "0x18",
+        "InventoryAmmoMax": "0x1C",
+        "InventoryFlag78": "0x78",
+        "PedHeading": "0x70",
+        "PedInvincibleFlags": "0x188",
+        "PedInvincibleByte": "0x189",
+        "PedInvincibleFlagValue": "0x1000",
+        "CameraRootData": "0x10",
+        "CameraFov": "0x30",
+        "CameraForward": "0x40",
+        "InvisibilityChain": ["0x10", "0x20", "0x70", "0x0", "0x2C"],
+        "VehicleModelName": "0x298",
+        "NoCollisionChainFinal": "0x2C",
+        "NoCollisionValueEnabled": "-1.0",
+        "NoCollisionValueDisabled": "0.25"
+      },
+      "magicBullet": {
+        "WeaponManagerObject": "0x78",
+        "CWeaponObject": "0x320",
+        "SpawnPosition": "0x20",
+        "TargetHeading": "0x70"
+      },
+      "playerNamesMap": {
+        "EntryNetId": "0x10",
+        "EntryNameField": "0x18",
+        "EntryNext": "0x08",
+        "MapMask": "0x30",
+        "MapVector": "0x18",
+        "NameStringLength": "0x30",
+        "NameStringInline": "0x18",
+        "ListEntryStride": "0x28"
+      }
+    },
+    "b2944": {
+      "build": "2944",
+      "module": {
+        "World": "0x257BEA0",
+        "ReplayInterface": "0x1F42068",
+        "ViewPort": "0x1FEAAC0",
+        "Camera": "0x1FEB968",
+        "HandleBullet": "0x1003F80",
+        "BlipList": "0x1FEB968",
+        "Waypoint": "0x1FF3130"
+      },
+      "struct": {
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10B8",
+        "VisibleFlag": "0x145C",
+        "LastVehicle": "0xD10",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "Health": "0x280",
+        "MaxHealth": "0x284",
+        "Armor": "0x150C",
+        "FragInsNmGTA": "0x1430"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    },
+    "b2802": {
+      "build": "2802",
+      "module": {
+        "World": "0x254D448",
+        "ReplayInterface": "0x1F5B820",
+        "ViewPort": "0x1FBC100",
+        "Camera": "0x1FBCCD8",
+        "HandleBullet": "0xFF716C",
+        "BlipList": "0x1FBCFA8",
+        "Waypoint": "0x1FBD6E0"
+      },
+      "struct": {
+        "BoneList": "0x410",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10B8",
+        "VisibleFlag": "0x145C",
+        "LastVehicle": "0xD10",
+        "PlayerInfo": "0x10A8",
+        "PlayerNetID": "0xE8",
+        "Health": "0x280",
+        "MaxHealth": "0x284",
+        "Armor": "0x150C",
+        "FragInsNmGTA": "0x1430"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    },
+    "b2699": {
+      "build": "2699",
+      "module": {
+        "World": "0x26684D8",
+        "ReplayInterface": "0x20304C8",
+        "ViewPort": "0x20D8C90",
+        "Camera": "0x20D9868",
+        "HandleBullet": "0xFF9D90",
+        "BlipList": "0x20D9B38",
+        "Waypoint": "0x20E1420"
+      },
+      "struct": {
+        "BoneList": "0x430",
+        "BoneManager": "0x430",
+        "WeaponManager": "0x10D8",
+        "VisibleFlag": "0x147C",
+        "LastVehicle": "0xD30",
+        "PlayerInfo": "0x10C8",
+        "PlayerNetID": "0x88",
+        "Health": "0x280",
+        "MaxHealth": "0x2A0",
+        "Armor": "0x1530",
+        "FragInsNmGTA": "0x1450"
+      },
+      "world": {
+        "LocalPlayer": "0x8"
+      }
+    }
+  },
+  "sharedRuntimeOffsets": {
+    "note": "Used across builds in Cheat.hpp / GameSDK.hpp. For builds other than b3095, verify against live memory before relying on extended sections.",
+    "replayInterface": {
+      "VehicleInterface": "0x10",
+      "PedInterface": "0x18",
+      "PedList": "0x100",
+      "PedMaximum": "0x108",
+      "PedListStride": "0x10",
+      "VehicleList": "0x180",
+      "VehicleMaximum": "0x188",
+      "VehicleListStride": "0x10"
+    },
+    "esp": {
+      "ViewMatrix": "0x24C"
+    },
+    "ped": {
+      "ModelInfo": "0x20",
+      "Navigation": "0x30",
+      "Coordinate": "0x90",
+      "NetObject": "0xD0",
+      "ConfigFlags": "0x1444"
+    },
+    "vehicle": {
+      "ModelInfo": "0x20",
+      "Navigation": "0x30",
+      "Coordinate": "0x90",
+      "BodyHealth": "0x280",
+      "BodyHealthAlt": "0x284",
+      "EngineHealth": "0x910",
+      "PetrolTank": "0x824",
+      "OilTank": "0x8E8",
+      "VisualFlag888": "0x888",
+      "WindowState972": "0x972",
+      "WindowState974": "0x974",
+      "Misc978": "0x978",
+      "ModelBlock": "0x280"
+    },
+    "weapon": {
+      "WeaponInfoFromManager": "0x20",
+      "WeaponObjectFromManager": "0x78",
+      "WeaponObjectAlt": "0x60",
+      "WeaponDamage": "0xB0",
+      "NoReload": "0x134",
+      "NoRange": "0x28C",
+      "CWeaponFromObject": "0x320",
+      "CWeaponSpawnPosition": "0x20"
+    },
+    "skeleton": {
+      "FragInstStep1": "0x68",
+      "FragInstStep2": "0x178",
+      "CrSkeletonDataBase": "0x8",
+      "BoneMatrixTable": "0x18",
+      "BoneMatrixStride": "0x40"
+    },
+    "network": {
+      "NetObjectOwnerId": "0x49",
+      "NetObjectFlags": "0x4E",
+      "NetObjectOwnerOverride": "0x4A",
+      "NetObjectOwnerMask": "0x4B"
+    },
+    "exploits": {
+      "SemiGodModeFlags": "0x188",
+      "SemiGodModeByte": "0x189",
+      "SemiGodModeFlagValue": "0x1000",
+      "NoCollisionNavChain": ["0x30", "0x10", "0x20", "0x70", "0x0", "0x2C"]
+    },
+    "silentAim": {
+      "HookRva": "0x34E",
+      "ShellcodeSize": "0x21"
+    },
+    "navigation": {
+      "Position": "0x50"
+    },
+    "handling": {
+      "ModelMagic": "0x2C"
+    }
+  },
+  "dynamicBases": {
+    "note": "Resolved at runtime via GetBaseAddress()",
+    "GameBase": "main game module base",
+    "CitizenPlayernamesBase": "citizen-playernames-five.dll base",
+    "NetBase": "net.dll base"
+  }
+}
