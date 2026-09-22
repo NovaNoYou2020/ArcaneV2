@@ -11,7 +11,7 @@
         "https://raw.githubusercontent.com/NovaNoYou2020/Nexone/refs/heads/main/Arcane/Arcane/partshobiron.json"
     ],
     "modules": {
-        "gameProcess": "VMP_GameProcess.exe",
+        "gameProcess": "IRFive_GameProcess.exe",
         "gameWindowClass": "grcWindow",
         "citizenPlayernames": "citizen-playernames-five.dll",
         "net": "net.dll"
