@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "description": "Arcane cheat - all game build profiles, module offsets, struct offsets, and runtime hardcoded offsets extracted from the codebase.",
+    "description": "Arcane",
     "defaultProfile": "b3258",
     "loaderVersion": "v1",
     "sourceFiles": [
@@ -671,7 +671,7 @@
         }
     },
     "sharedRuntimeOffsets": {
-        "note": "Used across builds in Cheat.hpp / GameSDK.hpp. For builds other than b3095, verify against live memory before relying on extended sections.",
+        "note": "k",
         "replayInterface": {
             "VehicleInterface": "0x10",
             "PedInterface": "0x18",
